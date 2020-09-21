@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap" rel="stylesheet');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet')
+
 html, body, div, span, applet, object, iframe,  
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
 a, abbr, acronym, address, big, cite, code,  
@@ -13,7 +17,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {  
 margin: 0;  
 padding: 0;  
-border: 0;  
+/*border: 0;*/  
 font-size: 100%;  
 font: inherit;  
 vertical-align: baseline;  
@@ -29,15 +33,33 @@ html{
 }
 body{
     font-size: 1.8rem;
-    line-height: 1.5;
-    font-family: '';
+    line-height: 1.5;font-family: 'Roboto', sans-serif;;
     
 }
+h1{
+    font-family: 'Crimson Text', serif;
+}
+h2,h3{
+    font-family: 'Crimson Text', serif;
+}
 img{
-    border-radius:50%;
+    border-radius:100%;
+    width: 10%;
 }
-footer a{
-    color: #c36;
+footer{
+    background-color: #C36;
+    padding: 3% 0;
+    text-align: center;
 }
+footer nav a{
+    width:80%;
+    color: #F4C35F;
+    text-decoration: none;
+    letter-spacing: 2%;
+}
+footer nav:hover{
+    color: white;
+}
+
 
 
