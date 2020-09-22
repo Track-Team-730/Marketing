@@ -89,19 +89,79 @@ nav a{
 .hero-text{
     text-align: center;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 35%;
     transform: translate(-30%, -30%);
     margin: 5%;
     color: white;
 }
-h2{
+.hero-text h2{
     font-size: 3.5rem;
+    color: white;
 }
-#about{
-    
+.hero-text button{
+    margin: 0 4% 2%;
+    background: #F26522;
+    color: white;
+    padding: 2%;
+    border-radius: 5%;
 }
 
+/*middle content*/
+#about{
+    padding: 2%;
+}
+.information h2{
+    color: #474747;
+}
+#about p{
+    background-color: #f4C35F;
+    color: white;
+    font-size: 2.5rem;
+    padding: 4%;
+}
+.ourservices{
+    display: flex;
+    flex-direction: row;
+
+}
+.newplatform{
+    background-color: #F4C35F;
+}
+h3{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 100;
+    padding: 2% 4% 0;
+}
+.newplatform button{
+    margin: 0 4% 2%;
+    background: #F26522;
+    color: white;
+    padding: 2%;
+    border-radius: 5%;
+}
+.services img{
+    width: 40%;
+}
+.newplatform p .bold{
+    color: #F26522;
+}
+
+/*testimonials*/
+.bothtests{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.testimonial-one img{
+    width: 30%;
+}
+.testimonial-two img{
+    width: 30%;
+}
+/*footer*/
 footer{
     background-color: #C36;
     padding: 3% 0;
