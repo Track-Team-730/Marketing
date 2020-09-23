@@ -18,14 +18,14 @@ time, mark, audio, video
 {  
 margin: 0;  
 padding: 0;  
-/*border: 0;*/  
+border: 0;  
 font-size: 100%;  
 font: inherit;  
 vertical-align: baseline;  
 }
 *{
   box-sizing:border-box;
-  border:1px solid grey; 
+  /*border:1px solid grey;*/ 
   max-width:100%;
 }
 
@@ -79,61 +79,66 @@ nav a{
   background-color: #C36;
 }
 h3{
-  font-size: 3rem;;
+  font-size: 3rem;
+  color: #474747;
 }
 h4{
-  font-size: 2rem;;
+  font-size: 2rem;
+  color: #474747;
 }
 /*bio section*/
 .teambio{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 2% 0;
+  padding: 2%;
   width: 100%;
 }
-/* .teambio .people{
-  display: flex;
-  flex-direction: column;
-  padding: 2%;
-}
-.people img{
-  padding: 0 2% 0 0;
-  filter: grayscale(100%);
-} */
 
 .bio {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 2%;
+  
 }
 
 .bio-reverse {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
+
 }
 
 .people-img {
-  width: 450px;
-  height: 400px;
+  width: 25%;
+  height: 35%;
+  filter: grayscale(100%);
+  padding: 1%;
+}
+.teambio p{
+  color: #474747;
+  font-size: 1.5rem;
 }
 
 /*footer*/
-footer{
+#contact{
   background-color: #C36;
   text-align: center;
+  width: 100%;
 }
-footer .icons{
-  width:50%;
-  text-decoration: none;
-  letter-spacing: 2%;
-  margin: 2%;
-  color: #F26522;
+
+#contact nav a{
+width: 40%;
+padding: 2%;
+color: #f4C35F;
 }
-footer .icons:hover{
+#contact nav a:hover{
   color: white;
 }
-footer h2{
+#contact h2{
   color: white;
+  
 }
+
+
