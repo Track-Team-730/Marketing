@@ -28,3 +28,95 @@ vertical-align: baseline;
   border:1px solid grey; 
   max-width:100%;
 }
+
+/*general styles*/
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Crimson Text', serif;
+    font-size: 6rem;
+    color: white;
+    background-color: #C36;
+    text-align: center;
+  
+}
+h2, h3, h4{
+    font-family: 'Crimson Text', serif;
+}
+
+h2{
+    font-size: 4rem;
+    padding: 2%;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+
+/*Styles for the header*/
+header{
+  background-color: #C36;
+  padding: 0 4%;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #C36;
+}
+nav a{
+  display: inline;
+  text-align: center;
+  padding: 1%;
+  color: white;
+  background-color: #C36;
+}
+h3{
+  font-size: 3rem;;
+}
+h4{
+  font-size: 2rem;;
+}
+/*bio section*/
+.teambio{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2% 0;
+  width: 100%;
+}
+.teambio .people{
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+.people img{
+  padding: 0 2% 0 0;
+  filter: grayscale(100%);
+}
+
+/*footer*/
+#contact{
+  background-color: #C36;
+  text-align: center;
+}
+#contact nav a{
+  width:50%;
+  text-decoration: none;
+  letter-spacing: 2%;
+  margin: 2%;
+  color: #F26522;
+}
+#contact nav:hover{
+  color: white;
+}
+#contact h2{
+  color: white;
+}
