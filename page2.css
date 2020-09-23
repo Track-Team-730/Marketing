@@ -92,7 +92,7 @@ h4{
   padding: 2% 0;
   width: 100%;
 }
-.teambio .people{
+/* .teambio .people{
   display: flex;
   flex-direction: column;
   padding: 2%;
@@ -100,6 +100,23 @@ h4{
 .people img{
   padding: 0 2% 0 0;
   filter: grayscale(100%);
+} */
+
+.bio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bio-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.people-img {
+  width: 450px;
+  height: 400px;
 }
 
 /*footer*/
