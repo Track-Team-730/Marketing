@@ -28,3 +28,33 @@ vertical-align: baseline;
   border:1px solid grey; 
   max-width:100%;
 }
+
+/*general styles*/
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Crimson Text', serif;
+    font-size: 6rem;
+    color: white;
+}
+h2, h3, h4{
+    font-family: 'Crimson Text', serif;
+}
+
+h2{
+    font-size: 4rem;
+    padding: 3%;
+    color: #474747;
+}
+a{
+    text-decoration: none;
+}
+section{
+    padding: 2% 0;
+}
