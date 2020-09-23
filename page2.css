@@ -120,20 +120,20 @@ h4{
 }
 
 /*footer*/
-#contact{
+footer{
   background-color: #C36;
   text-align: center;
 }
-#contact nav a{
+footer .icons{
   width:50%;
   text-decoration: none;
   letter-spacing: 2%;
   margin: 2%;
   color: #F26522;
 }
-#contact nav:hover{
+footer .icons:hover{
   color: white;
 }
-#contact h2{
+footer h2{
   color: white;
 }
