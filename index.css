@@ -42,10 +42,11 @@ body{
 }
 h1{
     font-family: 'Crimson Text', serif;
-    font-size: 5rem;
+    font-size: 4rem;
     color: #474747;
     letter-spacing: 3px;
     padding: 4%;
+    line-height: 1.2;
 }
 h2, h3, h4{
     font-family: 'Crimson Text', serif;
@@ -214,7 +215,7 @@ h4{
     width: 100%;
     color: white;
     background-color: #9D8D7B;
-    height: 22vh;
+    height: 30vh;
     font-size: 1.6rem;
     display: none;
     padding-left: 2%;
