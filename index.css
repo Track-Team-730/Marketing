@@ -63,7 +63,6 @@ a{
     letter-spacing: 1px;
     color:  white;
     font-family: 'Roboto', sans-serif;
-
 }
 i{
     font-size: 3rem;
@@ -119,7 +118,7 @@ header nav{
     color: white;
 }
 .hero-text button{
-    margin: 0 4% 2%;
+    margin: 2% 4% 2%;
     background: #F26522;
     border-color: #F26522;
     color: white;
@@ -155,6 +154,9 @@ header nav{
 }
 .newplatform{
     background-color: #F4C35F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 h3{
     color: white;
@@ -241,4 +243,6 @@ width: 10%;
     
 }
 
-
+/*Media Query*/
+/*tablet*/
+@media (max-width:800px)
