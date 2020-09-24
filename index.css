@@ -295,7 +295,7 @@ width: 10%;
 /*tablet 800px*/
 @media (max-width:800px){
     #main-links-container{
-        margin-top: 2%;
+        margin-top: 20%;
     }
 .links{
     width: 80%;
@@ -338,7 +338,7 @@ h4{
 }
 @media (max-width:500px){
     #main-links-container{
-        margin-top: 15%;
+        margin-top: 20%;
     }
     .links{
         width: 95%;
