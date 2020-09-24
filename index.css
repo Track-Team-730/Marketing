@@ -124,6 +124,7 @@ header nav{
     color: white;
     padding: 2%;
     border-radius: 5%;
+    font-size: 2rem;
 } */
 
 /*middle content about*/
@@ -160,7 +161,7 @@ header nav{
 }
 h3{
     color: white;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-weight: 100;
     padding: 2% 4% 0;
     text-align: left;
@@ -169,6 +170,7 @@ h3{
 .newplatform p{
     width: 100%;
     color: white;
+    font-size: 2.5rem;
     padding: 2%;
     text-align: left;
 }
@@ -205,13 +207,19 @@ h3{
     align-items: flex-end;
     
 }
+h4{
+    font-size: 2rem;
+    text-align: center;
+}
 .hide{
     width: 100%;
     color: white;
     background-color: #9D8D7B;
     height: 22vh;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     display: none;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .heroimage1:hover .hide{
