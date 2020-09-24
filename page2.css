@@ -43,7 +43,7 @@ body{
 }
 h1{
   font-family: 'Crimson Text', serif;
-  font-size: 6rem;
+  font-size: 5rem;
   color: #474747;
   letter-spacing: 3px;
   padding: 4%;
@@ -89,7 +89,7 @@ header nav{
   align-items: center;
   color: white;
   background-color: #C36;
-  margin: 1%;
+  margin-right: 4%;
 }
 h3{
   font-size: 4rem;
