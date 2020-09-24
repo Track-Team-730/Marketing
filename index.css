@@ -152,6 +152,9 @@ h3{
     padding: 2%;
     border-radius: 5%;
 }
+.newplatform button:hover{
+    color: white;
+}
 #services img{
     width: 40%;
     height: 30vh;
@@ -221,12 +224,13 @@ h3{
     background-color: #C36;
     text-align: center;
     width: 100%;
-    
 }
-
+#contact nav{
+    display: flex;
+    justify-content: center;
+}
 #contact nav a{
-  width: 40%;
-  padding: 2%;
+width: 10%;
   color: #f4C35F;
 }
 #contact nav a:hover{

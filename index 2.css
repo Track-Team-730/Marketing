@@ -38,14 +38,17 @@ body{
     line-height: 1.5;
     font-family: 'Roboto', sans-serif;
     height: 100%;
+    color: #474747;
 }
 h1{
     font-family: 'Crimson Text', serif;
     font-size: 6rem;
     color: white;
+    letter-spacing: 3px;
 }
 h2, h3, h4{
     font-family: 'Crimson Text', serif;
+    letter-spacing: 3px;
 }
 
 h2{
@@ -55,9 +58,14 @@ h2{
 }
 a{
     text-decoration: none;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
 }
-section{
+section, footer{
     padding: 2% 0;
+}
+i{
+    font-size: 5rem;
 }
 
 
@@ -214,12 +222,11 @@ h3{
 #contact{
     background-color: #C36;
     text-align: center;
-}
-#contact nav a{
-    width:50%;
+} 
+.social{
+    
     text-decoration: none;
-    letter-spacing: 2%;
-    margin: 2%;
+ 
     color: #F26522;
 }
 #contact nav:hover{
