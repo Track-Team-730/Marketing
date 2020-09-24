@@ -26,10 +26,10 @@ vertical-align: baseline;
 *{
   box-sizing:border-box;
   /* border:1px solid grey;  */
-  max-width:100%;
+  /* max-width:100%;
 }
 /*general styles*/
-html{
+/* html{
     font-size: 62.5%;
     height: 100%;
 }
@@ -49,9 +49,9 @@ h1{
 h2, h3, h4{
     font-family: 'Crimson Text', serif;
     letter-spacing: 3px;
-}
+} */
 
-h2{
+/* h2{
     font-size: 4rem;
     padding: 3%;
     color: #474747;
@@ -70,11 +70,11 @@ i{
 
 
 /*Styles for the header*/
-header{
+/* header{
     background-color: #C36;
     padding: 2% 4%;
-}
-nav{
+} */ 
+/* nav{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -91,8 +91,8 @@ nav a{
     padding: 2%; 
     display: flex;
     justify-content: center;
-}
-.hero-image{
+} */
+/* .hero-image{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/womanworkingatmarket.jpg");
     width: 100%;
     height: 100vh;
@@ -120,10 +120,10 @@ nav a{
     color: white;
     padding: 2%;
     border-radius: 5%;
-}
+} */
 
 /*middle content*/
-#about{
+/* #about{
     padding: 2%;
 }
 .information h2{
@@ -139,8 +139,8 @@ nav a{
     display: flex;
     flex-direction: row;
 
-}
-.newplatform{
+} */
+/* .newplatform{
     background-color: #F4C35F;
 }
 h3{
@@ -155,8 +155,8 @@ h3{
     color: white;
     padding: 2%;
     border-radius: 5%;
-}
-#services img{
+} */
+/* #services img{
     width: 40%;
 }
 .newplatform p{
@@ -166,10 +166,10 @@ h3{
 .newplatform p .bold{
     color: #F26522;
 
-}
+} */
 
 /*testimonials*/
-.testimonialboth{
+/* .testimonialboth{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -193,8 +193,8 @@ h3{
     transform: translate(-10%, 17%);
     background-color: #9D8D7B;
     color: white;
-}
-.hero-image3{
+} */
+/* .hero-image3{
     padding: 4%;
     background-image: url("assets/headshptofawoman.jpg");
     width: 40%;
@@ -216,10 +216,10 @@ h3{
 
 .testimonialboth p{
     font-size: 1.4rem;
-}
+} */
 
 /*footer*/
-#contact{
+/* #contact{
     background-color: #C36;
     text-align: center;
 } 
@@ -234,6 +234,6 @@ h3{
 }
 #contact h2{
     color: white;
-} */
+}  */
 
 
