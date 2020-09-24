@@ -18,14 +18,14 @@ time, mark, audio, video
 {  
 margin: 0;  
 padding: 0;  
-/* border: 0; */
+border: 0;
 font-size: 100%;  
 font: inherit;  
 vertical-align: baseline;  
 }
 *{
   box-sizing:border-box;
-  border:1px solid grey; 
+  /* border:1px solid grey;  */
   padding: 0;
   margin: 0; 
   max-width:100%;
@@ -163,7 +163,7 @@ h3{
     font-size: 2.7rem;
     font-weight: 100;
     padding: 2% 4% 0;
-    text-align: left;
+    text-align: center;
 }
 
 .newplatform p{
@@ -247,12 +247,45 @@ width: 10%;
 }
 #contact h2{
     color: white;
-    
 }
 
 /*Media Query*/
 
 /*desktop 1024px*/
+@media (max-width:1024px){
+    .links{
+        width: 57%;
+        font-size: 1.8rem;
+        margin-right: 4%;
+    }
+    h1{
+        font-size: 3.7rem;
+        padding: 0;
+        margin-left:4%;
+        letter-spacing: 2px;
+    }
+    h3{
+        font-size: 2.4rem;
+        font-weight: 100;
+        padding: 2% 4% 5% 0;
+        text-align: center;
+    }
+    .newplatform p{
+        padding-right: 6%;
+        font-size: 1.9rem;
+    }
+    h4{
+        font-size: 1.8rem;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        letter-spacing: 1px;
+    }
+    .hide{
+        height: 30vh;
+        font-size: 1.5rem;
+    }
+}
 
 /*tablet 800px*/
 @media (max-width:800px){
@@ -261,12 +294,12 @@ width: 10%;
     width: 60%;
     font-size: 1.5rem;
     padding: 0;
-    margin: 1%;
+    margin-left: 4%;
 }
 h1{
-    font-size: 2.8rem;
+    font-size: 2.1rem;
     padding: 0;
-    margin:1%;
+    margin-left:4%;
 }
 .hero-text h2{
     font-size: 3rem;
@@ -296,15 +329,18 @@ h4{
 /*phone 500px*/
 }
 @media (max-width:500px){
+    #main-links-container{
+        margin-top: 15%;
+    }
     .links{
         width: 85%;
         font-size: 1rem;
-        margin: 1%;
+        margin-right: 4%;
     }
     h1{
         font-size: 2.1rem;
         padding: 0;
-        margin:1%;
+        margin-left:4%;
         text-align: left;
         line-height: 1;
     }
