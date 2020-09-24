@@ -18,14 +18,14 @@ time, mark, audio, video
 {  
 margin: 0;  
 padding: 0;  
-/*border: 0;*/ 
+border: 0;
 font-size: 100%;  
 font: inherit;  
 vertical-align: baseline;  
 }
 *{
   box-sizing:border-box;
-  border:1px solid grey; 
+  /* border:1px solid grey;  */
   padding: 0;
   margin: 0; 
   max-width:100%;
@@ -145,40 +145,30 @@ header nav{
 /*middle content services*/
 .ourservices{
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    flex-wrap:wrap;
+}
+.newplatform, .image{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 .newplatform{
     background-color: #F4C35F;
-    margin-bottom: 4%;
-    
 }
 h3{
     color: white;
     font-size: 2.5rem;
     font-weight: 100;
     padding: 2% 4% 0;
-    text-align: center;
+    text-align: left;
 }
-/* .newplatform button{
-    margin: 0 4% 2%;
-    background: #F26522;
-    border-color: #F26522;
-    color: white;
-    padding: 2%;
-    border-radius: 5%;
-}
-.newplatform button:hover{
-    color: white;
-} */
-#services img{
-    width: 40%;
-    height: 30vh;
-    background-color: #f4C35F;
-}
+
 .newplatform p{
+    width: 100%;
     color: white;
     padding: 2%;
+    text-align: left;
 }
 .newplatform p .bold{
     color: #F26522;
@@ -187,52 +177,47 @@ h3{
 /*testimonials*/
 .testimonialboth{
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
+
 .heroimage1{
-    padding: 4%;
+    height: 70vh;
     background-image:url('../assets/womanholdingchild.jpg');
     width: 40%;
-    height: 60vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
+    display: flex;
+    align-items: flex-end;
 }
+
 .heroimage2{
-    padding: 4%;
-    background-image: url('../assets/headshotofwoman.jpg');
+    height: 70vh;
+    background-image:url('../assets/headshotofwoman.jpg');
     width: 40%;
-    height: 60vh;
-    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-position: center top;
+    display: flex;
+    align-items: flex-end;
+    
+}
+.hide{
+    width: 100%;
+    color: white;
+    background-color: #9D8D7B;
+    height: 22vh;
+    font-size: 1.2rem;
+    display: none;
 }
 
-/* .testimonial-one{
-    text-align: center;
-    position: absolute;
-    top: 70%;
-    width: 100%;
-    transform: translate(-10%, 17%);
-    background-color: #9D8D7B;
-    color: white;
-} */
-
-/* .testimonial-two{
-    text-align: center;
-    position: absolute;
-    top: 70%;
-    width: 100%;
-    transform: translate(-10%, 17%);
-    background-color: #9D8D7B;
-    color: white;
+.heroimage1:hover .hide{
+    display:block;
 }
-
-.testimonialboth p{
-    font-size: 1.4rem;
-} */ */
-
+.heroimage2:hover .hide{
+    display:block;
+}
 /*footer*/
 #contact{
     background-color: #C36;
@@ -256,16 +241,3 @@ width: 10%;
 }
 
 
-/* nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    background-color: #C36;
-} */
-/* nav a{
-    display: inline;
-    text-align: center;
-    padding: 1%;
-    color: white;
-    background-color: #C36;
-} */
