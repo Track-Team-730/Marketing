@@ -128,6 +128,8 @@ header nav{
     font-size: 2rem;
 } */
 
+
+
 /*middle content about*/
 #about{
     padding: 2%;
@@ -143,6 +145,9 @@ header nav{
     padding: 4%;
     margin-bottom: 4%;
 }
+
+
+
 /*middle content services*/
 .ourservices{
     display: flex;
